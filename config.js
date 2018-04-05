@@ -7,7 +7,7 @@
         // direction: 'forward',
       url: function (input) {
         var inputEncoded = encodeURIComponent(input);
-        return '//api.phila.gov/ais/v1/search/' + inputEncoded;
+        return '//api.phila.gov/ais_dev/v1/search/' + inputEncoded;
       },
       params: {
         gatekeeperKey: GATEKEEPER_KEY,
@@ -18,7 +18,7 @@
       //   direction: 'reverse',
       //   // TODO uri encode
       //   url: function (input) {
-      //     return '//api.phila.gov/ais/v1/reverse_geocode/' + input;
+      //     return '//api.phila.gov/ais_dev/v1/reverse_geocode/' + input;
       //   },
       //   params: {
       //     gatekeeperKey: GATEKEEPER_KEY,
